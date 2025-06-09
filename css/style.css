@@ -43,6 +43,15 @@ button {
 img {
   width: 100%;
 }
+.scroller{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: var(--secondary-color);
+  z-index: 1000;
+}
 /* Constant Header */
 .special-heading {
   text-align: center;

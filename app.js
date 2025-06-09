@@ -6,6 +6,15 @@ const myCloseBtn = document.getElementById("menu-close-button");
 const scrollToTopButton = document.querySelector(".scroll-to-top");
 const myHeader = document.querySelector("header");
 const myLogo = document.getElementById("logo");
+const myScroller = document.querySelector(".scroller");
+
+window.addEventListener("scroll", () => {
+  const scrollTop = document.documentElement.scrollTop;
+  const height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  myScroller.style.width = `${(scrollTop / height) * 100}%`;
+});
 
 // ================================================
 
