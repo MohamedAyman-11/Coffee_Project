@@ -9,13 +9,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
   </head>
   <body>
-    <div class="scroller"></div>
     <!-- Start Header -->
     <header>
       <nav class="nav-bar container">
@@ -40,7 +41,14 @@
     <!-- Strat Hero Section -->
     <div class="hero-section">
       <div class="section-content container">
-        <div class="hero-details">
+        <div
+          class="hero-details"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="200"
+          data-aos-duration="1500"
+        >
           <div class="title">
             <h2 class="special-title">Best Coffee</h2>
           </div>
@@ -56,7 +64,14 @@
             <a href="#contact-section" class="button contact">Contact Us</a>
           </div>
         </div>
-        <div class="img-box">
+        <div
+          class="img-box"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+        >
           <img
             src="./images/coffee-hero-section.png"
             alt="Hero"
@@ -69,10 +84,20 @@
     <!-- Start About Section -->
     <div class="about-section" id="about-section">
       <div class="about-section-content container">
-        <div class="image-wrapper">
+        <div
+          class="image-wrapper"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+        >
           <img src="./images/about-image.jpg" alt="About" class="about-img" />
         </div>
-        <div class="about-details">
+        <div
+          class="about-details"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+        >
           <div class="content">
             <h2 class="special-heading">ABOUT US</h2>
             <p class="about-para">
@@ -100,7 +125,11 @@
       <div class="menu-section-content container">
         <h2 class="special-heading">OUR MENU</h2>
         <ul class="menu-list">
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/hot-beverages.png"
               alt="Hot"
@@ -115,7 +144,11 @@
               </p>
             </div>
           </li>
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/cold-beverages.png"
               alt="Cold"
@@ -128,7 +161,11 @@
               <p>Creamy and frathy cold coffe to make you cool.</p>
             </div>
           </li>
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/refreshment.png"
               alt="Refreshment"
@@ -141,7 +178,11 @@
               <p>Fruit and icy refreshing drink to make feel refresh.</p>
             </div>
           </li>
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/special-combo.png"
               alt="Combo"
@@ -154,7 +195,11 @@
               <p>Your favourite eating and drinking combotions.</p>
             </div>
           </li>
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/desserts.png"
               alt="Desserts"
@@ -167,7 +212,11 @@
               <p>Satiate Your palate and take you on a culinary treat.</p>
             </div>
           </li>
-          <li>
+          <li
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img
               src="./images/burger-frenchfries.png"
               alt="Burger-Frenchfries"
@@ -185,12 +234,12 @@
     </div>
     <!-- End Menu Section -->
     <!-- start Testimonials Section -->
-    <div class="testimonials-section" id="testimonials-section">
+    <div class="testimonials-section" id="testimonials-section" >
       <h2 class="special-heading">Testimonials</h2>
-      <div class="testimonials-section-content container">
-        <div class="slider-container swiper">
-          <div class="slider-wrapper">
-            <ul class="testimonials-list swiper-wrapper">
+      <div class="testimonials-section-content container" >
+        <div class="slider-container swiper" >
+          <div class="slider-wrapper" >
+            <ul class="testimonials-list swiper-wrapper" >
               <li class="testimonial swiper-slide">
                 <img
                   src="./images/user-1.jpg"
@@ -261,22 +310,52 @@
       <div class="gallery-section-content container">
         <h2 class="special-heading">GAllery</h2>
         <ul class="gallery-list">
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-1.jpg" alt="" class="gallery-image" />
           </li>
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-2.jpg" alt="" class="gallery-image" />
           </li>
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-3.jpg" alt="" class="gallery-image" />
           </li>
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-4.jpg" alt="" class="gallery-image" />
           </li>
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-5.jpg" alt="" class="gallery-image" />
           </li>
-          <li class="gallery-item">
+          <li
+            class="gallery-item"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <img src="./images/gallery-6.jpg" alt="" class="gallery-image" />
           </li>
         </ul>
@@ -288,7 +367,12 @@
       <div class="contact-section-content container">
         <h2 class="special-heading">Contact US</h2>
         <div class="contact-content">
-          <ul class="info-list">
+          <ul
+            class="info-list"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <li class="contact-info">
               <i class="fa-solid fa-location-crosshairs"></i>
               <p>123 Campsite Avenue, Wilderness, CA 98765</p>
@@ -318,7 +402,13 @@
               <p>www.codeingnepalweb.com</p>
             </li>
           </ul>
-          <form action="#" class="contact-form">
+          <form
+            action="#"
+            class="contact-form"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
             <input
               type="text"
               class="form-input"
@@ -359,8 +449,10 @@
       </div>
     </footer>
     <!-- End Footer-section -->
+    <!-- Initialize Swiper.js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./app.js"></script>
   </body>
-  <!-- Initialize Swiper.js  -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="./app.js"></script>
 </html>
